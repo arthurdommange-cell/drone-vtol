@@ -16,9 +16,9 @@ J'ai comparé ce qu'on a reçu avec la liste du matériel du rapport bibliograph
   - les servos MG90S : j'en ai vu 4 sur la photo, il faut recompter les sachets ;
   - la radio : vérifier que c'est bien la FS-i6X et que le récepteur FS-iA6B est dans la boîte ;
   - l'adaptateur de niveau 3,3 / 5 V : c'est un TXS0108E, qui marche souvent mal en I²C, à tester avec le capteur ;
-  - les engrenages : 2 engrenages bleus, il faut vérifier le nombre de dents (40 et 30), le module et l'alésage.
+  - les engrenages : 2 reçus sur les 6 prévus (tableau III.2), il faut vérifier que ce sont bien une roue de 40 dents et un pignon de 30 dents, le module et l'alésage.
 - **Pas encore reçu (9)** : entre autres la carte Arduino Nano 33 BLE, les moteurs X2216, les batteries, l'UBEC et les tubes carbone.
-- **Hors rapport, pas encore reçu (2)** : un châssis carbone et des plaques GRP pour l'armature. Ils ont été ajoutés après le rapport, comme les engrenages.
+- **Hors rapport, pas encore reçu (2)** : un châssis carbone et des plaques GRP pour l'armature. Ils ont été ajoutés après le rapport.
 
 Comme la carte et les moteurs ne sont pas encore là, on ne peut rien tester en vrai pour l'instant. J'ai donc fait toute la nacelle en CAO pour être prêt quand les pièces arriveront.
 
