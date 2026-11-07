@@ -11,15 +11,16 @@ Pour cette première séance on n'avait pas encore toutes les pièces. De mon c�
 
 J'ai comparé ce qu'on a reçu avec la liste du matériel du rapport bibliographique (tableau III.2).
 
-- **Reçu (4)** : les 2 ESC 40 A, les 3 servos KST DS215MG, le capteur de vitesse air ASPD-4525 avec son tube de Pitot, et le filament PETG du fablab.
-- **Reçu mais à vérifier (3)** :
+- **Reçu (6)** : les 2 ESC 40 A, les 3 servos KST DS215MG, le capteur de vitesse air ASPD-4525 avec son tube de Pitot, le filament PETG du fablab, 3 paires d'hélices Gemfan 1045 (10 × 4,5, une paire de rechange) et un lot de 10 roulements MR105ZZ.
+- **Reçu mais à vérifier (4)** :
   - les servos MG90S : j'en ai vu 4 sur la photo, il faut recompter les sachets ;
   - la radio : vérifier que c'est bien la FS-i6X et que le récepteur FS-iA6B est dans la boîte ;
-  - l'adaptateur de niveau 3,3 / 5 V : c'est un TXS0108E, qui marche souvent mal en I²C, à tester avec le capteur.
-- **Pas encore reçu (11)** : entre autres la carte Arduino Nano 33 BLE, les moteurs X2216, les hélices, les batteries, l'UBEC, les roulements MR105 et les tubes carbone.
-- **Hors rapport (3)** : un châssis carbone, des plaques GRP pour l'armature et les engrenages POM. Ils ont été ajoutés après le rapport.
+  - l'adaptateur de niveau 3,3 / 5 V : c'est un TXS0108E, qui marche souvent mal en I²C, à tester avec le capteur ;
+  - les engrenages : 2 engrenages bleus, il faut vérifier le nombre de dents (40 et 30), le module et l'alésage.
+- **Pas encore reçu (9)** : entre autres la carte Arduino Nano 33 BLE, les moteurs X2216, les batteries, l'UBEC et les tubes carbone.
+- **Hors rapport, pas encore reçu (2)** : un châssis carbone et des plaques GRP pour l'armature. Ils ont été ajoutés après le rapport, comme les engrenages.
 
-Comme la carte, les moteurs et les roulements ne sont pas encore là, on ne peut rien tester en vrai pour l'instant. J'ai donc fait toute la nacelle en CAO pour être prêt quand les pièces arriveront.
+Comme la carte et les moteurs ne sont pas encore là, on ne peut rien tester en vrai pour l'instant. J'ai donc fait toute la nacelle en CAO pour être prêt quand les pièces arriveront.
 
 ## 2. CAO de la nacelle
 
@@ -69,7 +70,8 @@ Le script de la nacelle sort directement :
 
 ## 4. Pour la prochaine séance
 
-- Imprimer les éprouvettes, puis les pièces de la nacelle.
+- Imprimer les éprouvettes, essayer un roulement MR105 dans les logements, puis imprimer les pièces de la nacelle.
+- Compter les dents des engrenages reçus et vérifier qu'ils correspondent à la CAO.
 - Mesurer un servo KST reçu (oreilles de fixation) et corriger la CAO.
 - Recompter les MG90S et vérifier la radio.
 - Commencer le banc de poussée.
