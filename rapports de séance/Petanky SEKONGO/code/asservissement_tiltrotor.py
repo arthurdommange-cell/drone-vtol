@@ -1,18 +1,4 @@
-#!/usr/bin/env python3
-"""
-Modèle d'asservissement du drone VTOL bi-rotor (tilt-rotor, type V-22)
------------------------------------------------------------------------
-Basé sur les équations et valeurs du rapport bibliographique (II.8 à II.19).
 
-Contenu :
-  1. Paramètres (les HYPOTHESES sont marquées -> à remplacer par vos mesures)
-  2. Réglage des boucles de vitesse angulaire (PI) + marges de stabilité
-  3. Simulation temporelle de la cascade angle -> vitesse -> couple (250 Hz)
-  4. Loi de transition θn,max(V) et simulation masse ponctuelle
-
-Dépendances : numpy (obligatoire), matplotlib (optionnel, pour les figures)
-Usage : python asservissement_tiltrotor.py
-"""
 import numpy as np
 
 try:
